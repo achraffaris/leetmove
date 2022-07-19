@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://unpkg.com/@webpixels/css/dist/index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+</head>
+  <body>
+    <div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
+        <!-- Main content -->
+        <div class="h-screen flex-grow-1 overflow-y-lg-auto">
+          <!-- Main -->
+          <main class="py-6 bg-surface-secondary">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xl-7 mx-auto">
+                  <!-- Profile picture -->
+                  <div class="card shadow border-0 mt-4 mb-10">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="d-flex align-items-center">
+                            <a href="#" class="avatar avatar-lg bg-warning rounded-circle text-white">
+                              <img alt="..." src="https://cdn.intra.42.fr/users/afaris.jpg">
+                            </a>
+                            <div class="ms-4">
+                              <span class="h4 d-block mb-0">Achraf Faris</span>
+                              <a href="#" class="text-sm font-semibold text-muted">View Profile</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ms-auto">
+                          <button type="button" class="btn btn-sm btn-neutral">Refresh</button>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="row g-6 mb-6">
+                    <div class="col-xl-3 col-sm-6 col-12 ">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col">
+                              <span class="h6 font-semibold text-muted text-sm d-block mb-2">Status</span>
+                              <span class="h4 font-bold mb-0">Oustanding! 😎</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col">
+                              <span class="h6 font-semibold text-muted text-sm d-block mb-2">BH</span>
+                              <span class="h4 font-bold mb-0">89 Days 📈</span>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col">
+                              <span class="h6 font-semibold text-muted text-sm d-block mb-2">Logtime</span>
+                              <span class="h4 font-bold mb-0">60H 🕒</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col">
+                              <span class="h6 font-semibold text-muted text-sm d-block mb-2">Time Spent</span>
+                              <span class="h4 font-bold mb-0">204 Days 📅</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Form -->
+                  <h2 class="mb-4">
+                    EST <strong>Scholarship</strong>?
+                  </h2>
+                  <form class="mb-6">
+                    <div class="row mb-5">
+                        <div class="col-md-6">
+                            <div class="">
+                              <label class="form-label" for="last_name">Future BH</label>
+                              <input type="number" class="form-control" id="last_name" placeholder="Blackhole days">
+                            </div>
+                          </div>
+                      <div class="col-md-6">
+                        <div class="">
+                          <label class="form-label" for="first_name">Future Date</label>
+                          <input type="text" class="form-control" data-toggle="date" id="kt_datepicker_1" placeholder="Select date">
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="text-end">
+                      <button type="button" class="btn btn-sm btn-neutral me-2">Reset</button>
+                      <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+                    </div>
+                  </form>
+                  <!-- Individual switch cards -->
+                  <div class="row g-6">
+                    <div class="col-md-12">
+                        <div class="alert bg-transparent text-success border-success" role="alert">
+                            <strong>Holy guacamole!</strong> You may get the Scholarship!
+                          </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    <script>
+    $("#kt_datepicker_1").flatpickr();
+</script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
