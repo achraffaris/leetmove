@@ -126,7 +126,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SESSION_COOKIE_HTTPONLY = True
 
-CLIENT_ID = '17fc9c544e84758a0a31f911097a5e3610ff0c1c6b59ec6e24d1c9da27a0e69e'
-SECRET_ID = 'bb84e5350ea8da1d21b642348120187c59618ca07f93724c3a01308e788c1bac'
+CLIENT_ID = 'client'
+SECRET_ID = 'secret'
 REDIRECT_URI = 'https://8000-achraffaris-leetmove-5gy75gjic0r.ws-eu54.gitpod.io/oauth2callback'
 OAUTH_ENDPOINT = 'https://api.intra.42.fr/oauth/token'
